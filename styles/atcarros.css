@@ -1,0 +1,181 @@
+p {
+    font-family: 'Sharp Grotesk', 'Open Sans', 'Arial';
+    color: rgb(37, 37, 37);
+}
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    height: 160px;
+}
+.logo {
+    width: 270px;
+    margin-left: 60px;
+}
+.header-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.insta-button-one{
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    margin-right: 40px;
+    background: none;
+    border: none;
+}
+.insta-logo {
+    width: 160px;
+    
+}
+.whats-button-one{
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    
+    background: none;
+    border: none;
+    margin-right: 60px;
+}
+.whats-logo {
+    width: 160px;
+}
+
+
+.middle-section{
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(194, 194, 194);
+}
+ .left-middle{
+    flex: 1;
+    display: block;
+    background-color: rgb(55, 55, 55);
+    padding-left: 60px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    
+}
+.text-middle {
+    font-size: 65px;
+    width: 680px;
+    color: white;
+    margin: 0;
+    margin-top: 100px;
+    line-height: 1;
+}
+.subtext-middle {
+    font-size: 28px;
+    width: 600px;
+    color: white;
+    margin-top: 50px;
+}
+.whats-button-middle {
+    width: 270px;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    object-fit: contain;
+}
+.whats-logo-middle {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.right-middle {
+    flex: 1;
+    display: block;
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(55, 55, 55);
+    background-color: white;
+}
+.title-right-middle {
+    font-size: 30px;
+    width: 900px;
+    margin-left: 60px;
+    color: rgb(46, 46, 46);
+}
+
+.cards {
+    height: 400px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: left;
+
+    background-color: rgb(255, 255, 255);
+}
+.car-card {
+    display: block;
+    width: 450px;
+  
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 2px rgba(113, 113, 113, 0.5);
+    padding-bottom: 20px;
+}
+.car-photo {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.about-car {
+    display: block;
+    background-color: white;
+    width: 450px;
+}
+.car-title {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.car-model {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.time-posted {
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+}
+.price-car {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.middle-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 700px;
+    height: 300px;
+}
+.buy-tittle{
+    font-size: 44px;
+    margin-left: 60px;
+    color: rgb(49, 49, 49);
+} 
